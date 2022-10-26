@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:wght@200;300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* position: absolute; */
+    background-color: rgb(251, 247, 247);
+    /* width: 244px; */
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    transition: transform 0.2s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(69, 74, 74);
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 23px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: yellowgreen; */
+    height: 59vh;
+    width: 8ovw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 75px;
+}
+
+.name {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+
+}
+
+.devpic img {
+    height: 59vh;
+}
+
+.buttons {
+    margin: 24px;
+}
+
+.buttons button {
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 23px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+
+
+.contactform {
+    padding: 0px 26px;
+    padding: 144px;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.contactform h2 {
+    align-items: center;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+}
+/* 
+#clientemail{
+    margin: 24px;
+    padding: 8px;
+}
+
+#clientphone{
+    margin: 24px;
+    padding: 8px;
+}
+
+#isclient{
+    margin: 24px;
+    padding: 8px;
+} */
+
+
+
+
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 9px;
+    color: rgb(97, 99, 91);
+}
+.button4c button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+.button4c button{
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 23px;
+    margin: 25px 320px;
+    cursor: pointer;
+}
+.form-check-label{
+    
+    text-align: center;
+}
+.blogitems{
+    margin: 25px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.blogitems h2{
+    
+}
+.blogitems h2{
+    
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    top: 10px;
+    margin-left: 100px;
+    
+}
+
+.sidebargo{
+    transform: translate(-444px, 0);
+    position: absolute;
+}
+@media (max-width: 1300px) {
+    .devpic{
+        display: none;
+    }
+    
+}
+
+
